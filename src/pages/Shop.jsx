@@ -71,8 +71,8 @@ const ShopPage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Albums 🎵</h1>
+    <div className="shop-container">
+      <h1>Albums On Sale</h1>
 
       {loading ? <p>Loading albums...</p> : null}
 

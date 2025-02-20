@@ -23,7 +23,7 @@ function ProductCard({ product }) {
         />
         <button onClick={() => setQuantity(quantity + 1)}>+</button>
       </div>
-      
+
       <button onClick={() => addToCart(product, quantity)}>Add to Cart</button>
     </div>
   );
