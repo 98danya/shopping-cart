@@ -44,7 +44,7 @@ function Home() {
     <div className="home-container">
       <div className="ipod-container">
         <Link to="/shop">
-          <img src="src/assets/ipod.png" alt="iPod" className="ipod-image" />
+        <img src="/ipod.png" alt="iPod" className="ipod-image" />
           <div className="album-screen">
             <div className="album-slider" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
               {albumImages.map((album, index) => (
